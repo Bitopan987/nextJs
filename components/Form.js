@@ -72,8 +72,8 @@ const UserForm = () => {
         </button>
       </form>
       <ul>
-        {users.map((user) => (
-          <li>{user.username}</li>
+        {users.map((user, index) => (
+          <li key={index}>{user.username}</li>
         ))}
       </ul>
     </div>
