@@ -14,3 +14,56 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.Nav_link {
+  background-color: green;
+  color: aliceblue;
+  padding: 0.6rem 1.2rem;
+  margin: 1rem 0.5rem 1rem 0;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.btn_primary {
+  background-color: blue;
+  color: aliceblue;
+  padding: 0.6rem 1.2rem;
+
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.article_title {
+  color: blue;
+}
+
+.error {
+  color: red;
+}
+
+.form {
+  margin: 0 auto;
+  max-width: 50%;
+  padding: 2rem;
+  border: 2px solid #e7e4e4;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.7rem;
+}
+
+.form_title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
