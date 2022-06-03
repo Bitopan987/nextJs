@@ -12,7 +12,7 @@ export default function Blog() {
       <p className={`${styles.text} `}>Blogs by Bitopan</p>
       <article className={styles.flex}>
         {POSTS.map(({ image, title }) => (
-          <div>
+          <div key={title}>
             <Image src={image} width="300" height="200"></Image>
             <p>{title}</p>
           </div>
